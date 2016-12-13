@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -f $1/telegraf.conf ]; then
+if [ -f $TELEGRAF_CONFIG_PATH ]; then
     echo "Found telegraf.conf"
     exit 0
 else
